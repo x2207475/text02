@@ -17,6 +17,9 @@ Git安装
 ##查看日志
 - git log --oneline
 
-##退回到某一个时刻
+##退回到指定的版本
 - git reset --hard Head~0    0表示最新一次提交代码的时候
-- git reset --hard 版权号    精确到某一个时刻
+- git reset --hard 版本号    精确到某一个时刻
+
+##打开所有储存的版本号
+- git reflog   可以看到所有提交的版本号
