@@ -51,7 +51,7 @@ Git安装
 ##提交代码到github(当做git服务器来用)
 - git push 地址 master     master不一定是固定的
         + 实例: git push https://github.com/x2207475/text00.git master
-        + 会把当前分支的内容上传到远程的master分支上
+        + 会把当前分支的 内容上传到远程的master分支上
 
 - git pull 地址 master
         + 实例: git pull https://github.com/x2207475/text00.git master
@@ -59,3 +59,6 @@ Git安装
 
 - git clone 地址 master
         + 会得到远程仓库相同的数据,如果多次执行会覆盖本地的内容,所以一般都使用push上传,pull调用
+
+## 私钥
+        + ssh-keygen -t rsa -C "xiaoming@sina.com"
